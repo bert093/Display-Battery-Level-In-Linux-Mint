@@ -1,0 +1,8 @@
+how to display bluetooth battery (wireless headset) on linux mint (if in DE Gnome, kde plasma, and xfce it doesn't seem necessary)
+1. open the terminal
+2. type sudo nano /etc/bluetooth/main.conf
+3. in the [General] section add Experimental = true
+4. when you have, press the ctrl + x key to exit and save.
+5. and press enter
+6. after that, we just restart the bluetooth services, namely systemctl restart bluetooth
+7. done
